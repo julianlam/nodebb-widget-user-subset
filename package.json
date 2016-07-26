@@ -1,0 +1,28 @@
+{
+  "name": "nodebb-widget-user-subset",
+  "version": "2.0.10",
+  "description": "NodeBB Text Widgets for User Subsets",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julianlam/nodebb-widget-user-subset"
+  },
+  "keywords": [
+    "nodebb",
+    "widget",
+    "essentials",
+    "markdown",
+    "text"
+  ],
+  "author": {
+    "name": "julianlam",
+    "email": "julian@nodebb.org"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julianlam/nodebb-widget-user-subset/issues"
+  },
+  "nbbpm": {
+    "compatibility": "^1.0.1"
+  }
+}

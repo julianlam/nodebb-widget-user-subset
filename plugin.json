@@ -1,0 +1,17 @@
+{
+	"id": "nodebb-widget-user-subset",
+	"name": "NodeBB Text Widgets for User Subsets",
+	"description": "Widgets to allow showing content to specified subsets of users",
+	"url": "https://github.com/julianlam/nodebb-widget-user-subset",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:widgets.getWidgets", "method": "defineWidgets" },
+		{ "hook": "filter:widget.render:user-subset-group", "method": "renderUserSubsetGroupWidget" },
+		{ "hook": "filter:widget.render:user-subset-language", "method": "renderUserSubsetLanguageWidget" }
+	],
+	"templates": "./public/templates",
+	"css": [
+    	"public/css/widget.css"
+    ]
+}
