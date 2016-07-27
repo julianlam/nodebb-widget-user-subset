@@ -1,6 +1,6 @@
 {
   "name": "nodebb-widget-user-subset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeBB Text Widgets for User Subsets",
   "main": "library.js",
   "repository": {
