@@ -106,10 +106,8 @@ Widget.renderUserSubsetCountryWidget = function(widget, callback) {
 	};
 
 	if (Widget.geoCache.has(ip)) {
-		console.log('cache hit');
 		done(Widget.geoCache.get(ip));
 	} else {
-		console.log('cache miss');
 		var geo = geoip.lookup(ip);
 		if (geo) {
 			Widget.geoCache.set(ip, geo.country);
